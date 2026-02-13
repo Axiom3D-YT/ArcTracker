@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local data files (these are fetched from API)
+*.json
+!requirements.txt
+
+# Test and verification scripts
+verify_*.py
+analyze_*.py
+fetch_*.py
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Brain/artifacts directory
+brain/
+.gemini/
+
+# Git
+.git/
